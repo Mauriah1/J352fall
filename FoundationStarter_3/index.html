@@ -5,30 +5,178 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Navient Data Visualization </title>
+<title>Foundation for Sites</title>
+<style> 
+	{box-sizing: border-box;}
+	body {font-family: Verdana, sans-serif; margin: 0}
+	.mySlides {display: none}
+	img {vertical-align: middle;}
+
+	.slideshow-container {
+		max-width: 1000px;
+		position: relative;
+		margin: auto;
+	}
+
+	.prev, .next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		padding: 16px;
+		margin-top: -22px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+	}
+
+	.next {
+		right: 0;
+		border-radius: 3px 00 3px;
+	}
+
+	.prev:hover, .next:hover {
+		background-color: rgba(0, 0, 0,0.8);
+	}
+
+	.text {
+		color: #f2f2f2;
+		font-size: 15px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.numbertext {
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+	}
+
+	.dot {
+		cursor: pointer;
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+	}
+
+	.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
 <link rel="stylesheet" href="css/foundation.css">
 <link rel="stylesheet" href="css/app.css">
 </head>
-<body style="background-color: grey;">
-<h1 style="font-family: sans-serif;" align="middle"> Navient Complaints </h1>
-<center>
-<byline> Mauriah Allen / November 13, 2023 / Navient Data visualization </byline> </center>
-
-
-<h2 style="font-family: kdam thmor pro;" align="middle" style="background-color: lightgrey;"><small style="color: black;"> Navinet Corporation is one of the nation's largest federal student loan services. <a href="https://navient.com"> Naviant </a> has been experiencing a growing number of lawsuits. This includes lawsuits from the <a href="https://www.consumerfinance.gov/data-research/consumer-complaints/search/?chartType=line&dateInterval=Month&lens=Overview&searchField=all&tab=Trends"> Consumber Finanical Protection Bureu, </a> state attorneys, and a group of teachers. 
-
-Navient has been required by 39 state attorney generals to provide a total of $1.85 billion in relief for private and federal student loan borrowers. 
-
-Concluding the settlement, Navient has had a increasment of lawsuits in other sections including debt collection and credit reporting.
-
-More than 66,000 Navient private student loan borrowers who were taken advantage of will receive complete loan cancellation of their remaining balances. However, naviant still has some work to do.  </h2> </small>
+<body>
 
 <center>
-<a href="https://www.studentloanplanner.com/navient-lawsuit-updates/"> read more on naviant </a>
+<h1 style="font-family: nunito sans-serif; font-size: .2in"> The personal slideshow I've created includes stunning photographs taken by Mauriah Allen Photography. It showcases the captivating ambiance of Board and Brew, while also introducing Construction on campus. The slideshow serves as a testament to my talent and the unique charm of Board and Brew, offering viewers a glimpse into the inviting atmosphere and the artistry behind its conception.</h1>
 </center>
-<br> 
-<script id="infogram_0_4b173d6b-e28d-468b-bc25-74563e1c4ed9" title="Untitled infographic" src="https://e.infogram.com/js/dist/embed.js?S2i" type="text/javascript"></script><div style="padding:6px 0;font-family:Arial!important;font-size:13px!important;line-height:10px!important;text-align:center;border-top:1px solid #dadada;margin:0 10px"><a href="https://infogram.com/4b173d6b-e28d-468b-bc25-74563e1c4ed9" style="color:#989898!important;text-decoration:none!important;" target="_blank">Untitled infographic</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
+<div class="slideshow-container">
 
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="board.jpg" style="width:100%">
+  <div class="text">Eating food at Board and Brew. </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="andbrew.jpg" style="width:100%">
+  <div class="text"> Wall at the Board and Brew. </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="boardandbrew0.jpg" style="width:100%">
+  <div class="text">Welcome sign at Board and Brew. </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="boardandbrewb.jpg" style="width:100%">
+  <div class="text">Book shelf at the Board and Brew. </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="boardbrew.jpg" style="width:100%">
+  <div class="text">Game sign at the Board and Brew. </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="DSC_9361.jpg" style="width:100%">
+  <div class="text">Oncoming construction on the University of Maryland campuses. </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 
 
 
